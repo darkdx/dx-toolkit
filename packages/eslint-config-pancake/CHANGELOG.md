@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.7.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-toolkit/eslint-config-pancake@1.6.0...@dx-toolkit/eslint-config-pancake@1.7.0) (2021-10-12)
+# [1.7.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-chain-toolkit/eslint-config-pancake@1.6.0...@dx-chain-toolkit/eslint-config-pancake@1.7.0) (2021-10-12)
 
 
 ### Features
@@ -14,7 +14,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.6.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-toolkit/eslint-config-pancake@1.5.0...@dx-toolkit/eslint-config-pancake@1.6.0) (2021-10-12)
+# [1.6.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-chain-toolkit/eslint-config-pancake@1.5.0...@dx-chain-toolkit/eslint-config-pancake@1.6.0) (2021-10-12)
 
 
 ### Features
@@ -25,7 +25,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.5.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-toolkit/eslint-config-pancake@1.4.0...@dx-toolkit/eslint-config-pancake@1.5.0) (2021-10-12)
+# [1.5.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-chain-toolkit/eslint-config-pancake@1.4.0...@dx-chain-toolkit/eslint-config-pancake@1.5.0) (2021-10-12)
 
 
 ### Features
@@ -36,7 +36,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.4.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-toolkit/eslint-config-pancake@1.3.0...@dx-toolkit/eslint-config-pancake@1.4.0) (2021-10-12)
+# [1.4.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-chain-toolkit/eslint-config-pancake@1.3.0...@dx-chain-toolkit/eslint-config-pancake@1.4.0) (2021-10-12)
 
 
 ### Features

@@ -1,5 +1,5 @@
 {
-  "name": "@dx-toolkit/token-lists",
+  "name": "@dx-chain-toolkit/token-lists",
   "version": "2.22.0",
   "main": "dist/index.js",
   "type": "module",

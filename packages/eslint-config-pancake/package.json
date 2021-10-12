@@ -1,5 +1,5 @@
 {
-  "name": "@dx-toolkit/eslint-config-pancake",
+  "name": "@dx-chain-toolkit/eslint-config-pancake",
   "version": "1.7.0",
   "description": "Eslint config for PancakeSwap",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   ],
   "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake",
   "license": "MIT",
-  "author": "dx-toolkit",
+  "author": "dx-chain-toolkit",
   "private": false,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",

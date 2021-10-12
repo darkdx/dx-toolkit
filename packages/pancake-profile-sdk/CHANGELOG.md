@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.7.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk/compare/@dx-toolkit/profile-sdk@0.6.0...@dx-toolkit/profile-sdk@0.7.0) (2021-10-12)
+# [0.7.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk/compare/@dx-chain-toolkit/profile-sdk@0.6.0...@dx-chain-toolkit/profile-sdk@0.7.0) (2021-10-12)
 
 
 ### Features
@@ -14,7 +14,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.6.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk/compare/@dx-toolkit/profile-sdk@0.5.0...@dx-toolkit/profile-sdk@0.6.0) (2021-10-12)
+# [0.6.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk/compare/@dx-chain-toolkit/profile-sdk@0.5.0...@dx-chain-toolkit/profile-sdk@0.6.0) (2021-10-12)
 
 
 ### Features
@@ -25,7 +25,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.5.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk/compare/@dx-toolkit/profile-sdk@0.4.0...@dx-toolkit/profile-sdk@0.5.0) (2021-10-12)
+# [0.5.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk/compare/@dx-chain-toolkit/profile-sdk@0.4.0...@dx-chain-toolkit/profile-sdk@0.5.0) (2021-10-12)
 
 
 ### Features
