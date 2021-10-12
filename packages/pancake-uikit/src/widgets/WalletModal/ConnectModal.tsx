@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import styled, { useTheme } from "styled-components";
-import getExternalLinkProps from "../../util/getExternalLinkProps";
+// import getExternalLinkProps from "../../util/getExternalLinkProps";
 import Grid from "../../components/Box/Grid";
 import Box from "../../components/Box/Box";
 import getThemeValue from "../../util/getThemeValue";
-import Text from "../../components/Text/Text";
+// import Text from "../../components/Text/Text";
 import Heading from "../../components/Heading/Heading";
-import { Button } from "../../components/Button";
+// import { Button } from "../../components/Button";
 import { ModalBody, ModalCloseButton, ModalContainer, ModalHeader, ModalTitle } from "../Modal";
 import WalletCard, { MoreWalletCard } from "./WalletCard";
 import config, { walletLocalStorageKey } from "./config";
@@ -59,7 +59,8 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
     <ModalContainer minWidth="320px">
       <ModalHeader background={getThemeValue("colors.gradients.bubblegum")(theme)}>
         <ModalTitle>
-          <Heading>{t("Connect Wallet")}</Heading>
+          {/* <Heading>{t("Connect Wallet")}</Heading> */}
+          <Heading>连接钱包</Heading>
         </ModalTitle>
         <ModalCloseButton onDismiss={onDismiss} />
       </ModalHeader>
@@ -74,7 +75,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
             {!showMore && <MoreWalletCard t={t} onClick={() => setShowMore(true)} />}
           </Grid>
         </WalletWrapper>
-        <Box p="24px">
+        {/* <Box p="24px">
           <Text textAlign="center" color="textSubtle" as="p" mb="16px">
             {t("Haven’t got a crypto wallet yet?")}
           </Text>
@@ -87,7 +88,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
           >
             {t("Learn How to Connect")}
           </Button>
-        </Box>
+        </Box> */}
       </ModalBody>
     </ModalContainer>
   );
