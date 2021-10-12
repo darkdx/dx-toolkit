@@ -8,7 +8,7 @@
   ],
   "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake",
   "license": "MIT",
-  "author": "dx-frontend",
+  "author": "dx-toolkit",
   "private": false,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",

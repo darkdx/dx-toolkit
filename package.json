@@ -1,7 +1,7 @@
 {
   "name": "dx-toolkit",
   "version": "1.0.0",
-  "description": "dx-frontend frontend packages",
+  "description": "dx-toolkit frontend packages",
   "private": false,
   "workspaces": [
     "packages/*"
