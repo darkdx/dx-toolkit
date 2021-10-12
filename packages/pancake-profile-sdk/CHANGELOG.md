@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk/compare/@dx-toolkit/profile-sdk@0.4.0...@dx-toolkit/profile-sdk@0.5.0) (2021-10-12)
+
+
+### Features
+
+* 修改 ([f48a968](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk/commit/f48a9685cdeaccdce7d69a2aaeee41110e5c3748))
+
+
+
+
+
 # 0.4.0 (2021-10-12)
 
 

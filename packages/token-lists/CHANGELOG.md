@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.20.0 (2021-10-12)
+
+
+### Bug Fixes
+
+* XWG Decimals ([#285](https://github.com/wysdx/dx-toolkit/issues/285)) ([e0abf9e](https://github.com/wysdx/dx-toolkit/commit/e0abf9edff43698c00d83b807b12a867440d0ad4))
+* **token-lists:** Top100 sanitization ([#251](https://github.com/wysdx/dx-toolkit/issues/251)) ([67d89c6](https://github.com/wysdx/dx-toolkit/commit/67d89c63e0630cb20354c35847d76b2b36af2d8e))
+* Add missing logos ([#144](https://github.com/wysdx/dx-toolkit/issues/144)) ([7bad2fa](https://github.com/wysdx/dx-toolkit/commit/7bad2faa6ab163e2883a0231961cffa6dbd9455d))
+* Decimals on Hai ([#163](https://github.com/wysdx/dx-toolkit/issues/163)) ([46bb8e9](https://github.com/wysdx/dx-toolkit/commit/46bb8e9eab419cea641d46e635e217442e026486))
+* Move netlify toml file to token-lists ([#127](https://github.com/wysdx/dx-toolkit/issues/127)) ([ce6f2cd](https://github.com/wysdx/dx-toolkit/commit/ce6f2cd41faf44af16322e4a37d93af6750dd592))
+* Tau coins ([#129](https://github.com/wysdx/dx-toolkit/issues/129)) ([29e5c38](https://github.com/wysdx/dx-toolkit/commit/29e5c383f6460474510662bf8cfebe0b15ffc003))
+
+
+### Features
+
+* 修改 ([f48a968](https://github.com/wysdx/dx-toolkit/commit/f48a9685cdeaccdce7d69a2aaeee41110e5c3748))
+* Add LIGHT and CART to extended list ([#296](https://github.com/wysdx/dx-toolkit/issues/296)) ([a884bc2](https://github.com/wysdx/dx-toolkit/commit/a884bc22892b02910980d559f3a6eea4c162f04b))
+* **token-lists:** Automated Top100 token list generation ([#134](https://github.com/wysdx/dx-toolkit/issues/134)) ([c7e69a5](https://github.com/wysdx/dx-toolkit/commit/c7e69a56c22911c6822632ecb267b4e0ecab8d14))
+* **token-lists:** ORBS & FORM ([#173](https://github.com/wysdx/dx-toolkit/issues/173)) ([465ff3b](https://github.com/wysdx/dx-toolkit/commit/465ff3bcf025dc53e06366ef841b643b2dc84341))
+* **token-lists:** Tests for checksummed address ([#250](https://github.com/wysdx/dx-toolkit/issues/250)) ([2197ed5](https://github.com/wysdx/dx-toolkit/commit/2197ed52c572f15001cc09c6bccb553ae614c049))
+* **token-lists:** Top100 token list default URI ([#249](https://github.com/wysdx/dx-toolkit/issues/249)) ([a671f70](https://github.com/wysdx/dx-toolkit/commit/a671f70f5a021e28c9a8bbcbaf15341effc26c54))
+* Add ATA to extended token list ([#143](https://github.com/wysdx/dx-toolkit/issues/143)) ([5360873](https://github.com/wysdx/dx-toolkit/commit/5360873fa08d75ba34251f401a37dae28a7fc4c8))
+* Add token logos ([#125](https://github.com/wysdx/dx-toolkit/issues/125)) ([e402156](https://github.com/wysdx/dx-toolkit/commit/e402156f2c304b1b6f26324ddb91ba7d277f1821))
+* Token List ([#95](https://github.com/wysdx/dx-toolkit/issues/95)) ([f18ab1d](https://github.com/wysdx/dx-toolkit/commit/f18ab1dc1eaecd447ae449ee1437c58f02db6abf))
+
+
+
+
+
 # [2.19.0](https://github.com/wysdx/dx-toolkit/compare/@pancakeswap/token-lists@2.18.6...@pancakeswap/token-lists@2.19.0) (2021-10-12)
 
 
