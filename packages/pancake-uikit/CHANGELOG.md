@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.62.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@dx-chain-toolkit/uikit@0.61.0...@dx-chain-toolkit/uikit@0.62.0) (2021-10-12)
+
+
+### Features
+
+* Fix bug ([6f2615f](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/6f2615f4637f396fba273b2076a1fabca6d72fcb))
+
+
+
+
+
 # [0.61.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@dx-chain-toolkit/uikit@0.60.0...@dx-chain-toolkit/uikit@0.61.0) (2021-10-12)
 
 
