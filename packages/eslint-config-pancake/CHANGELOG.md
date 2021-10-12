@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-chain-toolkit/eslint-config-pancake@1.8.0...@dx-chain-toolkit/eslint-config-pancake@1.9.0) (2021-10-12)
+
+
+### Features
+
+* Fix bug ([f47cd87](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/commit/f47cd87ed92a52a595a3399e88e74855aee2edc4))
+
+
+
+
+
 # 1.8.0 (2021-10-12)
 
 
