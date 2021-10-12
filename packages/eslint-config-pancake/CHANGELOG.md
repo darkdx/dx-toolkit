@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-toolkit/eslint-config-pancake@1.6.0...@dx-toolkit/eslint-config-pancake@1.7.0) (2021-10-12)
+
+
+### Features
+
+* 修改 ([00908f1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/commit/00908f1a61d3aa6ccd8b794266505f53e4f9ece2))
+
+
+
+
+
 # [1.6.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/eslint-config-pancake/compare/@dx-toolkit/eslint-config-pancake@1.5.0...@dx-toolkit/eslint-config-pancake@1.6.0) (2021-10-12)
 
 
