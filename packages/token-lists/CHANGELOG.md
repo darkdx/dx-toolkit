@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.21.0](https://github.com/wysdx/dx-toolkit/compare/@dx-toolkit/token-lists@2.20.0...@dx-toolkit/token-lists@2.21.0) (2021-10-12)
+
+
+### Features
+
+* 修改 ([e11ad62](https://github.com/wysdx/dx-toolkit/commit/e11ad624b9dbfe4afef104b21245653819273d05))
+
+
+
+
+
 # 2.20.0 (2021-10-12)
 
 
