@@ -43,5 +43,6 @@
     "jest": "^26.6.3",
     "rollup": "^2.47.0",
     "ts-jest": "^26.5.6"
-  }
+  },
+  "gitHead": "c2512b1de7b09bf56a84e78be5dcaa059aa4896b"
 }
