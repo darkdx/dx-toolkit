@@ -4,6 +4,7 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "private": false,
   "license": "MIT",
   "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-profile-sdk",
   "scripts": {
@@ -41,5 +42,5 @@
     "@types/js-cookie": "^2.2.6",
     "js-cookie": "^2.2.1"
   },
-  "gitHead": "c2512b1de7b09bf56a84e78be5dcaa059aa4896b"
+  "gitHead": "06caf33b2c9a2df3623153a2b171a7c569423bf1"
 }
