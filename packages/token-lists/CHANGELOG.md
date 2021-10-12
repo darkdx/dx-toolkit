@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.19.0](https://github.com/wysdx/dx-toolkit/compare/@pancakeswap/token-lists@2.18.6...@pancakeswap/token-lists@2.19.0) (2021-10-12)
+
+
+### Features
+
+* Add LIGHT and CART to extended list ([#296](https://github.com/wysdx/dx-toolkit/issues/296)) ([a884bc2](https://github.com/wysdx/dx-toolkit/commit/a884bc22892b02910980d559f3a6eea4c162f04b))
+
+
+
+
+
 ## [2.18.6](https://github.com/pancakeswap/pancake-toolkit/compare/@pancakeswap/token-lists@2.18.5...@pancakeswap/token-lists@2.18.6) (2021-09-28)
 
 **Note:** Version bump only for package @pancakeswap/token-lists
