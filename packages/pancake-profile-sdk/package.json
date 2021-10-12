@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/profile-sdk",
+  "name": "@dx-toolkit/profile-sdk",
   "version": "0.3.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
