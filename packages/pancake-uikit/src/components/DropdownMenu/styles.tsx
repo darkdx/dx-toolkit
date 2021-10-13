@@ -31,7 +31,8 @@ export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $i
   width: 100%;
 
   &:hover:not(:disabled) {
-    background-color: ${({ theme }) => theme.colors.tertiary};
+    /* background-color: ${({ theme }) => theme.colors.tertiary}; */
+    font-weight: bolder;
   }
 
   &:active:not(:disabled) {
