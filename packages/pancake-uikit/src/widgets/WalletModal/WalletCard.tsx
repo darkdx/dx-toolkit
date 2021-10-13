@@ -23,6 +23,14 @@ const WalletButton = styled(Button).attrs({ width: "100%", variant: "text", py: 
   margin-right: auto;
 `;
 
+const ClickImg = styled(Text)`
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 20px;
+`;
+
 interface MoreWalletCardProps extends ButtonProps {
   t: (key: string) => string;
 }
@@ -58,8 +66,9 @@ const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss }) => {
       }}
       id={`wallet-connect-${title.toLocaleLowerCase()}`}
     >
-      <Icon width="40px" mb="8px" />
-      <Text fontSize="14px">{title}</Text>
+      <Icon width="70px" mb="8px" />
+      <Text fontSize="22px">{title}</Text>
+      <ClickImg>点击头像连接</ClickImg>
     </WalletButton>
   );
 };

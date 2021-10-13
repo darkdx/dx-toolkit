@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import styled, { useTheme } from "styled-components";
 // import getExternalLinkProps from "../../util/getExternalLinkProps";
-import Grid from "../../components/Box/Grid";
+import Flex from "../../components/Box/Flex";
 import Box from "../../components/Box/Box";
 import getThemeValue from "../../util/getThemeValue";
 // import Text from "../../components/Text/Text";
 import Heading from "../../components/Heading/Heading";
 // import { Button } from "../../components/Button";
 import { ModalBody, ModalCloseButton, ModalContainer, ModalHeader, ModalTitle } from "../Modal";
-import WalletCard, { MoreWalletCard } from "./WalletCard";
+import WalletCard from "./WalletCard";
 import config, { walletLocalStorageKey } from "./config";
 import { Config, Login } from "./types";
 
@@ -50,7 +50,7 @@ const getPreferredConfig = (walletConfig: Config[]) => {
 };
 
 const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayCount = 3, t }) => {
-  const [showMore, setShowMore] = useState(false);
+  const [showMore] = useState(false);
   const theme = useTheme();
   const sortedConfig = getPreferredConfig(config);
   const displayListConfig = showMore ? sortedConfig : sortedConfig.slice(0, displayCount);
@@ -59,21 +59,20 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
     <ModalContainer minWidth="320px">
       <ModalHeader background={getThemeValue("colors.gradients.bubblegum")(theme)}>
         <ModalTitle>
-          {/* <Heading>{t("Connect Wallet")}</Heading> */}
-          <Heading>测试</Heading>
+          <Heading>{t("Connect Wallet")}</Heading>
         </ModalTitle>
         <ModalCloseButton onDismiss={onDismiss} />
       </ModalHeader>
       <ModalBody width={["320px", null, "340px"]}>
-        <WalletWrapper py="24px" maxHeight="453px" overflowY="auto">
-          <Grid gridTemplateColumns="1fr 1fr">
+        <WalletWrapper py="24px" maxHeight="453px" overflowY="auto" minHeight="180px">
+          <Flex alignItems="center" justifyContent="center" height="100%">
             {displayListConfig.map((wallet) => (
               <Box key={wallet.title}>
                 <WalletCard walletConfig={wallet} login={login} onDismiss={onDismiss} />
               </Box>
             ))}
-            {!showMore && <MoreWalletCard t={t} onClick={() => setShowMore(true)} />}
-          </Grid>
+            {/* {!showMore && <MoreWalletCard t={t} onClick={() => setShowMore(true)} />} */}
+          </Flex>
         </WalletWrapper>
         {/* <Box p="24px">
           <Text textAlign="center" color="textSubtle" as="p" mb="16px">
