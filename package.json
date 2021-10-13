@@ -2,7 +2,7 @@
   "name": "dx-chain-toolkit",
   "version": "1.0.0",
   "description": "dx-chain-toolkit frontend packages",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
