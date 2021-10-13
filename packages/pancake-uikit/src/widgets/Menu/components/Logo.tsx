@@ -18,7 +18,7 @@ const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
   .mobile-icon {
-    width: 32px;
+    width: 100px;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: none;
     }
@@ -49,7 +49,7 @@ const Logo: React.FC<Props> = ({ isDark, href }) => {
   const innerLogo = (
     <>
       <LogoIcon className="mobile-icon" />
-      <LogoWithTextIcon className="desktop-icon" isDark={isDark} />
+      <LogoWithTextIcon className="desktop-icon" />
     </>
   );
 

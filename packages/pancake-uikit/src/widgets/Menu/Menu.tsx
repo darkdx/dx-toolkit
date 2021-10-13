@@ -29,7 +29,7 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   align-items: center;
   width: 100%;
   height: ${MENU_HEIGHT}px;
-  background-color: ${({ theme }) => theme.nav.background};
+  background-color: ${({ theme }) => theme.colors.backgroundAlt2};
   border-bottom: 1px solid ${({ theme }) => theme.colors.cardBorder};
   z-index: 20;
   transform: translate3d(0, 0, 0);
