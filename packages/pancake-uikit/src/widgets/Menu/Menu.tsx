@@ -33,7 +33,6 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   border-bottom: 1px solid ${({ theme }) => theme.colors.cardBorder};
   z-index: 20;
   transform: translate3d(0, 0, 0);
-
   padding-left: 16px;
   padding-right: 16px;
 `;
