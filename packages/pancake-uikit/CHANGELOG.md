@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.64.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@dx-chain-toolkit/uikit@0.63.0...@dx-chain-toolkit/uikit@0.64.0) (2021-10-14)
+
+
+### Features
+
+* 样式优化 ([b6d2606](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/b6d260620ecd9e0ad10d17181d0ebc73401996ea))
+* 优化imgage ([1bd62bf](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/1bd62bfce7181e713076a778930c92ef365cd9b0))
+* Add Home icon ([1d7075f](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/1d7075fd162559a5791f2d98aafc219b256c0311))
+* Add Home icon ([2cf7b4a](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/2cf7b4af25764985cac39a88f22f7d3014e072f7))
+* Add Home icon ([59308c7](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/59308c704ea63f59d9ad2b2ff0be6f340dff9ebb))
+* Logo优化 ([3f2c1de](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/3f2c1dedd1ab4ac15c406d155c8b199833d684c9))
+* Logo优化 ([e9e0c7d](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/e9e0c7d930151318f567fce6210f3409de801a5f))
+* Logo优化 ([e758eec](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/e758eecc690456c3e64778a66b2c915d5421155f))
+* Menu优化 ([252de4b](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/252de4bb0332454fb640f2e53cd35a0f82c56a59))
+
+
+
+
+
 # [0.63.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@dx-chain-toolkit/uikit@0.62.0...@dx-chain-toolkit/uikit@0.63.0) (2021-10-12)
 
 

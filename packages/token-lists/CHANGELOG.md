@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.26.0](https://github.com/wysdx/dx-toolkit/compare/@dx-chain-toolkit/token-lists@2.25.0...@dx-chain-toolkit/token-lists@2.26.0) (2021-10-14)
+
+
+### Features
+
+* 优化 ([623eb0e](https://github.com/wysdx/dx-toolkit/commit/623eb0e9ab5e02dc7469be0629fa86c476611970))
+
+
+
+
+
 # [2.25.0](https://github.com/wysdx/dx-toolkit/compare/@dx-chain-toolkit/token-lists@2.24.0...@dx-chain-toolkit/token-lists@2.25.0) (2021-10-12)
 
 
