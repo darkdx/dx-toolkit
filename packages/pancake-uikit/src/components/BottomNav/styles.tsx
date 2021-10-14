@@ -6,6 +6,7 @@ const StyledBottomNav = styled(Flex)`
   bottom: 0px;
   width: 100%;
   padding: 5px 8px;
+  padding-bottom: 11px !important;
   background: ${({ theme }) => theme.colors.backgroundAlt};
   border-top: 1px solid ${({ theme }) => theme.colors.cardBorder};
   padding-bottom: env(safe-area-inset-bottom);
