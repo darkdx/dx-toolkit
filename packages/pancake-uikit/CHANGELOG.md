@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.67.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@dx-chain-toolkit/uikit@0.66.0...@dx-chain-toolkit/uikit@0.67.0) (2021-10-14)
+
+
+### Features
+
+* 优化Modal/Slider ([1116fc1](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/1116fc1fb4b7a6a785e945e73674d653c3a9702c))
+
+
+
+
+
 # [0.66.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@dx-chain-toolkit/uikit@0.65.0...@dx-chain-toolkit/uikit@0.66.0) (2021-10-14)
 
 
