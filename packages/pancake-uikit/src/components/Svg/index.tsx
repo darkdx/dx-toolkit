@@ -129,6 +129,7 @@ export { default as GroupsIcon } from "./Icons/Groups";
 export { default as HamburgerIcon } from "./Icons/Hamburger";
 export { default as HamburgerCloseIcon } from "./Icons/HamburgerClose";
 export { default as HomeIcon } from "./Icons/Home";
+export { default as HomeFillIcon } from "./Icons/HomeFill";
 export { default as IfoIcon } from "./Icons/Ifo";
 export { default as MoonIcon } from "./Icons/Moon";
 export { default as MoreIcon } from "./Icons/More";
