@@ -40,7 +40,7 @@ const Container = styled.div`
 
 const FloatingPanIcon = styled(DxIcon)`
   animation: ${float} 6s ease-in-out infinite;
-  width: 200px;
+  width: 50px;
   transform: translate3d(0, 0, 0);
 `;
 
