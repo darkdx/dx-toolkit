@@ -7,10 +7,12 @@ import { SpinnerProps } from "./types";
 
 const rotate = keyframes`
   from {
-    transform: rotate(0deg);
+    transform: rotateY(0deg);
+    /* transform: rotate(0deg); */
   }
   to {
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
+    transform: rotateY(360deg);
   }
 `;
 
@@ -28,7 +30,9 @@ const float = keyframes`
 
 const Container = styled.div`
   position: relative;
-  width: 100px;
+  display: flex;
+  justify-content: center;
+  width: 40px;
 `;
 
 // const RotatingPancakeIcon = styled(DxIcon)`
@@ -40,58 +44,57 @@ const Container = styled.div`
 // `;
 
 const FloatingPanIcon = styled(DxIcon)`
-  animation: ${float} 2s ease-in-out infinite;
-  left: 30px;
+  animation: ${rotate} 2s ease-in-out infinite;
   width: 35px;
   transform: translate3d(0, 0, 0);
 `;
-const FloatingPanIcon2 = styled(DxIcon)`
-  animation: FloatingPanIcon2Float 2s ease-in-out infinite;
-  width: 20px;
-  left: 0;
-  transform: translate3d(0, 0, 0);
-  @keyframes FloatingPanIcon2Float {
-    0% {
-      opacity: 1;
-      transform: translatey(0px);
-    }
-    50% {
-      opacity: 0;
-      transform: translatey(50px);
-    }
-    100% {
-      opacity: 0;
-      transform: translatey(0px);
-    }
-  }
-`;
-const FloatingPanIcon3 = styled(DxIcon)`
-  animation: FloatingPanIcon2Float 2.3s ease-in-out infinite;
-  width: 20px;
-  right: 0;
-  transform: translate3d(0, 0, 0);
-  @keyframes FloatingPanIcon2Float {
-    0% {
-      opacity: 1;
-      transform: translatey(0px);
-    }
-    50% {
-      opacity: 0;
-      transform: translatey(50px);
-    }
-    100% {
-      opacity: 0;
-      transform: translatey(0px);
-    }
-  }
-`;
+// const FloatingPanIcon2 = styled(DxIcon)`
+//   animation: FloatingPanIcon2Float 2s ease-in-out infinite;
+//   width: 20px;
+//   left: 0;
+//   transform: translate3d(0, 0, 0);
+//   @keyframes FloatingPanIcon2Float {
+//     0% {
+//       opacity: 1;
+//       transform: translatey(0px);
+//     }
+//     50% {
+//       opacity: 0;
+//       transform: translatey(50px);
+//     }
+//     100% {
+//       opacity: 0;
+//       transform: translatey(0px);
+//     }
+//   }
+// `;
+// const FloatingPanIcon3 = styled(DxIcon)`
+//   animation: FloatingPanIcon2Float 2.3s ease-in-out infinite;
+//   width: 20px;
+//   right: 0;
+//   transform: translate3d(0, 0, 0);
+//   @keyframes FloatingPanIcon2Float {
+//     0% {
+//       opacity: 1;
+//       transform: translatey(0px);
+//     }
+//     50% {
+//       opacity: 0;
+//       transform: translatey(50px);
+//     }
+//     100% {
+//       opacity: 0;
+//       transform: translatey(0px);
+//     }
+//   }
+// `;
 
 const Spinner: React.FC<SpinnerProps> = () => {
   return (
     <Container>
-      <FloatingPanIcon2 />
+      {/* <FloatingPanIcon2 /> */}
       <FloatingPanIcon />
-      <FloatingPanIcon3 />
+      {/* <FloatingPanIcon3 /> */}
       {/* <FloatingPanIcon width={`${size}px`} /> */}
     </Container>
   );
