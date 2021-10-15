@@ -2,7 +2,7 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 // import PanIcon from "./PanIcon";
 // import PancakeIcon from "./PancakeIcon";
-import DxIcon from "../Svg/Icons/Logo";
+import DxIcon from "../Svg/Icons/SpinnerLogo";
 import { SpinnerProps } from "./types";
 
 const rotate = keyframes`
@@ -19,7 +19,7 @@ const float = keyframes`
 		transform: translatey(0px);
 	}
 	50% {
-		transform: translatey(10px);
+		transform: translatey(30px);
 	}
 	100% {
 		transform: translatey(0px);
@@ -28,6 +28,7 @@ const float = keyframes`
 
 const Container = styled.div`
   position: relative;
+  width: 100px;
 `;
 
 // const RotatingPancakeIcon = styled(DxIcon)`
@@ -39,15 +40,58 @@ const Container = styled.div`
 // `;
 
 const FloatingPanIcon = styled(DxIcon)`
-  animation: ${float} 6s ease-in-out infinite;
-  width: 50px;
+  animation: ${float} 2s ease-in-out infinite;
+  left: 30px;
+  width: 35px;
   transform: translate3d(0, 0, 0);
+`;
+const FloatingPanIcon2 = styled(DxIcon)`
+  animation: FloatingPanIcon2Float 2s ease-in-out infinite;
+  width: 20px;
+  left: 0;
+  transform: translate3d(0, 0, 0);
+  @keyframes FloatingPanIcon2Float {
+    0% {
+      opacity: 1;
+      transform: translatey(0px);
+    }
+    50% {
+      opacity: 0;
+      transform: translatey(50px);
+    }
+    100% {
+      opacity: 0;
+      transform: translatey(0px);
+    }
+  }
+`;
+const FloatingPanIcon3 = styled(DxIcon)`
+  animation: FloatingPanIcon2Float 2.3s ease-in-out infinite;
+  width: 20px;
+  right: 0;
+  transform: translate3d(0, 0, 0);
+  @keyframes FloatingPanIcon2Float {
+    0% {
+      opacity: 1;
+      transform: translatey(0px);
+    }
+    50% {
+      opacity: 0;
+      transform: translatey(50px);
+    }
+    100% {
+      opacity: 0;
+      transform: translatey(0px);
+    }
+  }
 `;
 
 const Spinner: React.FC<SpinnerProps> = () => {
   return (
     <Container>
+      <FloatingPanIcon2 />
       <FloatingPanIcon />
+      <FloatingPanIcon3 />
       {/* <FloatingPanIcon width={`${size}px`} /> */}
     </Container>
   );
