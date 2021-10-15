@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.68.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@dx-chain-toolkit/uikit@0.67.0...@dx-chain-toolkit/uikit@0.68.0) (2021-10-15)
+
+
+### Features
+
+* 优化spinner ([a4d6e07](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/commit/a4d6e078cdc2143c93c47f5c25e1b1b2a222c6e9))
+
+
+
+
+
 # [0.67.0](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit/compare/@dx-chain-toolkit/uikit@0.66.0...@dx-chain-toolkit/uikit@0.67.0) (2021-10-14)
 
 
