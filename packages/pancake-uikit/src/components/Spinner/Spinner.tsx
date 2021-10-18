@@ -16,23 +16,23 @@ const rotate = keyframes`
   }
 `;
 
-const float = keyframes`
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(30px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
-`;
+// const float = keyframes`
+// 	0% {
+// 		transform: translatey(0px);
+// 	}
+// 	50% {
+// 		transform: translatey(30px);
+// 	}
+// 	100% {
+// 		transform: translatey(0px);
+// 	}
+// `;
 
 const Container = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
-  width: 40px;
+  width: 50px;
 `;
 
 // const RotatingPancakeIcon = styled(DxIcon)`
@@ -45,7 +45,7 @@ const Container = styled.div`
 
 const FloatingPanIcon = styled(DxIcon)`
   animation: ${rotate} 2s ease-in-out infinite;
-  width: 35px;
+  width: 50px;
   transform: translate3d(0, 0, 0);
 `;
 // const FloatingPanIcon2 = styled(DxIcon)`
